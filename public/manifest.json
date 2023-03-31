@@ -1,6 +1,10 @@
 {
   "short_name": "Portfolio",
   "name": "Portfolio",
+  "start_url": "https://alexandre-vernet.github.io/Portfolio/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
   "icons": [
     {
       "src": "icons/windows11/SmallTile.scale-100.png",
@@ -450,9 +454,5 @@
       "src": "icons/ios/1024.png",
       "sizes": "1024x1024"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
