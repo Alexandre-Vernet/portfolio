@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import './App.scss';
 import Projects from "../Projects/Projects";
+import Introduction from "../Introduction/Introduction";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
             </header>
             {
                 Projects()
+            }
+            {
+                Introduction()
             }
         </div>
     );
