@@ -2,6 +2,7 @@ import logo from '../logo.svg';
 import './App.scss';
 import Projects from "../Projects/Projects";
 import Introduction from "../Introduction/Introduction";
+import Experiences from "../Experiences/Experiences";
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
             }
             {
                 Introduction()
+            }
+            {
+                Experiences()
             }
         </div>
     );
