@@ -1,7 +1,7 @@
 {
   "short_name": "Portfolio",
   "name": "Portfolio",
-  "start_url": "https://alexandre-vernet.github.io/Portfolio/",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
