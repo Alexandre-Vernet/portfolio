@@ -1,24 +1,14 @@
 import './App.scss';
 import Projects from "../Projects/Projects";
-import Introduction from "../Introduction/Introduction";
-import Experiences from "../Experiences/Experiences";
-import Contact from "../Contact/Contact";
+import About from "../About/About";
+import Header from "../Header/Header";
 
 function App() {
     return (
-        <div className="App">
-            {
-                Projects()
-            }
-            {
-                Introduction()
-            }
-            {
-                Experiences()
-            }
-            {
-                Contact()
-            }
+        <div>
+            <Header/>
+            <About/>
+            <Projects/>
         </div>
     );
 }

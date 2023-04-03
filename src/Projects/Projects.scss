@@ -1,0 +1,44 @@
+
+section {
+    .container {
+        .project-list {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #333;
+
+                .project {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border: 1px solid #ccc;
+                    align-items: center;
+                    margin-bottom: 40px;
+                    padding: 20px;
+
+                    img {
+                        max-width: 50%;
+                        display: block;
+                        margin-bottom: 20px;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: 24px;
+                    }
+
+                    p {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+}
