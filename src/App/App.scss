@@ -4,10 +4,11 @@ $font-family_1: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: $font-family_1;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 section {
