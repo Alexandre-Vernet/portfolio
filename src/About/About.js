@@ -3,17 +3,36 @@ import Linkedin from "../images/svg/Linkedin";
 import Github from "../images/svg/Github";
 import CV from "../files/CV.pdf";
 import Email from "../images/svg/Email";
+import { TypeAnimation } from "react-type-animation";
 
 const About = () => {
     return (
         <section id="about">
             <section className="left">
                 <div className="text">
-                    <h2>Hello, it's me</h2>
+                    <h2>Bonjour, je m'appelle</h2>
                     <h1>Alexandre Vernet</h1>
-                    <h2>I'm a <span className="job-name">full-stack developer</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut odio cursus, finibus lectus
-                        ac
+                    <h2>Je suis un <span className="job-name">
+                            <TypeAnimation
+                                sequence={ [
+                                    'développeur full-stack',
+                                    1000, // Waits 1s
+                                    'développeur frontend',
+                                    1000,
+                                    'développeur backend',
+                                    1000,
+                                    'développeur mobile',
+                                    1000,
+                                    'développeur logiciel',
+                                    1000,
+                                    'développeur',
+                                ] }
+                                wrapper="span"
+                                cursor={ true }/>
+
+                    </span></h2>
+                    <p>
+                        J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.
                     </p>
                 </div>
                 <div className="social-medias">
@@ -23,7 +42,7 @@ const About = () => {
                 </div>
                 <div className="curriculum-vitae">
                     <a href={ CV } target="_blank" rel="noreferrer">
-                        <button>Download CV</button>
+                        <button>Télécharger mon CV</button>
                     </a>
                 </div>
             </section>
