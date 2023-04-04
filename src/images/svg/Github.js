@@ -1,5 +1,5 @@
 const Github = () => (
-    <a href="https://github.com/Alexandre-Vernet" target="_blank">
+    <a href="https://github.com/Alexandre-Vernet" target="_blank" rel="noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 496 512">
             <path

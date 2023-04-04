@@ -22,7 +22,7 @@ const About = () => {
                     <Github/>
                 </div>
                 <div className="curriculum-vitae">
-                    <a href={ CV } target="_blank">
+                    <a href={ CV } target="_blank" rel="noreferrer">
                         <button>Download CV</button>
                     </a>
                 </div>
@@ -30,7 +30,7 @@ const About = () => {
             <section className="right">
                 <img
                     src="https://user-images.githubusercontent.com/72151831/229601306-fae7a7d3-7d84-4451-b7a4-9241da7e7e3c.png"
-                    alt="photo me"/>
+                    alt="me"/>
             </section>
         </section>
     );

@@ -1,5 +1,5 @@
 const Linkedin = () => (
-    <a href="mailto:alexandre.vernet99@gmail.com" target="_blank">
+    <a href="mailto:alexandre.vernet99@gmail.com" target="_blank" rel="noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 512 512">
             <path

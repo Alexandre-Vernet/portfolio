@@ -1,5 +1,5 @@
 const Linkedin = () => (
-    <a href="https://www.linkedin.com/in/alexandre-vernet-60b6831a3/" target="_blank">
+    <a href="https://www.linkedin.com/in/alexandre-vernet-60b6831a3/" target="_blank" rel="noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 448 512">
             <path
