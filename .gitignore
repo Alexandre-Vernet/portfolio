@@ -65,10 +65,10 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
+# Yarn Integrity files
 .yarn-integrity
 
-# dotenv environment variables file
+# dotenv environment variables files
 .env
 .env.test
 
@@ -100,7 +100,7 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
-# TernJS port file
+# TernJS port files
 .tern-port
 /.idea/
 /build/
