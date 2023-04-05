@@ -1,8 +1,10 @@
 import './Header.scss';
 import { useEffect, useState } from "react";
 import Bars from "../../Images/svg/Bars";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+    const { t, i18n } = useTranslation('common');
     const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
@@ -28,7 +30,7 @@ const Header = () => {
                 <h1>Alexandre Vernet</h1>
                 <nav>
                     <ul>
-                        <li><a href="#about">Accueil</a></li>
+                        <li><a href="#about">{t('welcome.title')}</a></li>
                         <li><a href="#about">A propos</a></li>
                         <li><a href="#projects">Mes projets</a></li>
                         <li><a href="#contact">Contact</a></li>
