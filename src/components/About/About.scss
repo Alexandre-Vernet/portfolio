@@ -116,7 +116,7 @@
             margin-top: 300px;
             padding: 1em;
 
-            h1 {
+            .text > h1 {
                 font-size: 3em;
             }
         }
@@ -129,6 +129,25 @@
 
             img {
                 height: 250px;
+            }
+        }
+    }
+}
+
+@media (max-width: 507px) {
+    #about > .left {
+        margin-top: 200px;
+        .text {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
             }
         }
     }

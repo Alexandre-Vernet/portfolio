@@ -71,3 +71,12 @@ header {
         }
     }
 }
+
+
+@media (max-width: 450px) {
+    header {
+        .container > h1 {
+            font-size: 1.7em;
+        }
+    }
+}
