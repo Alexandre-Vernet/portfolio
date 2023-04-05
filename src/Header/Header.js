@@ -1,5 +1,6 @@
 import './Header.scss';
 import { useEffect, useState } from "react";
+import Bars from "../images/svg/Bars";
 
 const Header = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,7 +23,7 @@ const Header = () => {
     };
 
     return (
-        <header style={headerStyle}>
+        <header style={ headerStyle }>
             <div className="container">
                 <h1>Alexandre Vernet</h1>
                 <nav>
@@ -33,6 +34,9 @@ const Header = () => {
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+                <div className="bars">
+                    <Bars/>
+                </div>
             </div>
         </header>
     );

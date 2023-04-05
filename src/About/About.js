@@ -26,6 +26,8 @@ const About = () => {
                                     'développeur logiciel',
                                     1000,
                                     'développeur',
+                                    1000,
+                                    'développeur full-stack',
                                 ] }
                                 wrapper="span"
                                 cursor={ true }/>
