@@ -18,7 +18,7 @@ const Header = () => {
     }, []);
 
     const headerStyle = {
-        backgroundColor: scrollPosition > 0 ? "#1c2029" : "transparent",
+        backgroundColor: scrollPosition > 30 ? "#1c2029" : "transparent",
     };
 
     return (
