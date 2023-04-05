@@ -1,6 +1,6 @@
 import './Header.scss';
 import { useEffect, useState } from "react";
-import Bars from "../images/svg/Bars";
+import Bars from "../../images/svg/Bars";
 
 const Header = () => {
     const [scrollPosition, setScrollPosition] = useState(0);

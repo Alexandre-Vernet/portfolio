@@ -1,7 +1,7 @@
 import './App.scss';
-import Projects from "../Projects/Projects";
-import About from "../About/About";
-import Header from "../Header/Header";
+import Projects from "../Components/Projects/Projects";
+import About from "../Components/About/About";
+import Header from "../Components/Header/Header";
 
 function App() {
     return (
