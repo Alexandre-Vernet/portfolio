@@ -1,9 +1,8 @@
 @import "/src/Utils/colors.scss";
 
-$color_1: #fff;
 
 header {
-    color: $color_1;
+    color: $white;
     padding: 20px 0;
     position: fixed;
     top: 0;
@@ -27,7 +26,7 @@ header {
                     margin-right: 20px;
 
                     a {
-                        color: $color_1;
+                        color: $white;
                         text-decoration: none;
                         transition: all 0.2s ease;
                         font-size: 1.2em;
