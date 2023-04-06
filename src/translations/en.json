@@ -1,0 +1,52 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "projects": "My projects",
+        "contact": "Contact"
+    },
+    "about": {
+        "hello": "Hello, I'm",
+        "i_am": "I'm",
+        "developer": {
+            "fullstack": "a full-stack developer",
+            "frontend": "a front-end developer",
+            "backend": "a back-end developer",
+            "mobile": "a mobile developer",
+            "software": "a software developer",
+            "developer": "a developer"
+        },
+        "description": "I'm 23 years old, I live in Toulouse and I work as a software engineer at Capgemini.",
+        "download_cv": "Download my CV"
+    },
+    "projects": {
+        "my_latest": "My latest",
+        "projects": "projects",
+        "my_projects": [
+            {
+                "name": "File-Sync",
+                "description": "Share files (images, videos, text, markdown ...) in real time from one device to another"
+            },
+            {
+                "name": "Super-Store",
+                "description": "E-Commerce with cart management, products, orders and payment (Stripe)"
+            },
+            {
+                "name": "NAS-Download-Torrent-Plex",
+                "description": "Automated torrent download and display movies & series in an interface"
+            },
+            {
+                "name": "Program Generator",
+                "description": "Web / software project generator with framework choice"
+            },
+            {
+                "name": "Weather-App",
+                "description": "Weather application with position retrieval, display of current and forecast weather"
+            },
+            {
+                "name": "Todo-List",
+                "description": "Mobile application for managing shared tasks with multiple users in real time"
+            }
+        ]
+    }
+}
