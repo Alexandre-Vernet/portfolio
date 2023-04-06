@@ -58,7 +58,7 @@ header {
 
 @media (max-width: 772px) {
     header {
-        .container {
+        .navbar {
             flex-direction: row;
 
             nav > ul {
@@ -75,7 +75,7 @@ header {
 
 @media (max-width: 450px) {
     header {
-        .container > h1 {
+        .navbar > h1 {
             font-size: 1.7em;
         }
     }
