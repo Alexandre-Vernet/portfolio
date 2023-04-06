@@ -1,10 +1,9 @@
 @import "/src/Utils/colors.scss";
 
-
 #about {
     height: 110vh;
     width: 100%;
-    background: #313743;
+    background: $background-color;
     color: #ffffff;
     display: flex;
     flex-direction: row;
