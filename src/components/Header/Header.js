@@ -1,6 +1,6 @@
 import './Header.scss';
 import { useEffect, useState } from "react";
-import Bars from "../../Images/svg/Bars";
+import Bars from "../../images/svg/Bars";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {

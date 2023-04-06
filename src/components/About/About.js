@@ -1,8 +1,8 @@
 import './About.scss';
-import Linkedin from "../../Images/svg/Linkedin";
-import Github from "../../Images/svg/Github";
-import CV from "../../Files/CV.pdf";
-import Email from "../../Images/svg/Email";
+import Linkedin from "../../images/svg/Linkedin";
+import Github from "../../images/svg/Github";
+import CV from "../../files/CV.pdf";
+import Email from "../../images/svg/Email";
 import { TypeAnimation } from "react-type-animation";
 import { useTranslation } from "react-i18next";
 
