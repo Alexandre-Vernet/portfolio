@@ -6,6 +6,7 @@ import portfolio3 from '../../images/portfolio-3.jpg';
 import portfolio4 from '../../images/portfolio-4.jpg';
 import portfolio5 from '../../images/portfolio-5.jpg';
 import portfolio6 from '../../images/portfolio-6.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
     const { t } = useTranslation('common');
@@ -16,10 +17,14 @@ const Projects = () => {
             <h2>{ t('projects.my_latest') } <span>{ t('projects.projects') }</span></h2>
             <div className="project-container">
                 { projects.map((project, index) => (
-                    <div className="project-box">
+                    <div className="project-box"
+                         key={ index }>
                         <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
-                            <img
-                                src={ project } alt={ project }/>
+                            <LazyLoadImage
+                                alt={ project + index }
+                                src={ project }
+                                effect="blur"
+                            />
                             <div className="project-layer">
                                 <h4>{ t(`projects.my_projects.${ index }.name`) }</h4>
                                 <p>{ t(`projects.my_projects.${ index }.description`) }</p>
