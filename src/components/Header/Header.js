@@ -27,7 +27,7 @@ const Header = () => {
 
     return (
         <header style={ headerStyle }>
-            <div className="container">
+            <div className="navbar">
                 <h1>Alexandre Vernet</h1>
                 <nav>
                     <ul>
