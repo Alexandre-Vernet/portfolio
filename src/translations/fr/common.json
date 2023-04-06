@@ -25,7 +25,7 @@
         "my_projects": [
             {
                 "name": "File-Sync",
-                "description": "Synchronisation de texte ou de fichiers en temps réel d'un appareil à un autre"
+                "description": "Synchronisation fichiers (images, vidéos, texte, markdown ...) en temps réel d'un appareil à un autre"
             },
             {
                 "name": "Super-Store",

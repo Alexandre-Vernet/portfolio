@@ -1,8 +1,7 @@
 @import "/src/Utils/colors.scss";
 
-#projects {
+.projects {
     background: $third-color;
-    height: 100vh;
 
     .container {
         h2 {
@@ -79,6 +78,22 @@
                     transform: translateY(0);
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    #projects .container > .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 750px) {
+    #projects .container > .project-container {
+        grid-template-columns: repeat(1, 1fr);
+
+        .project-box {
+            height: 300px
         }
     }
 }

@@ -12,7 +12,7 @@ const Projects = () => {
     const { t } = useTranslation('common');
     const projects = [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6];
 
-    return (<section id="projects">
+    return (<section className="projects" id="projects">
         <div className="container">
             <h2>{ t('projects.my_latest') } <span>{ t('projects.projects') }</span></h2>
             <div className="project-container">
