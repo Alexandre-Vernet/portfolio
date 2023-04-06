@@ -1,42 +1,34 @@
 import './Projects.scss';
+import { useTranslation } from "react-i18next";
+import portfolio1 from '../../images/portfolio-1.jpg';
+import portfolio2 from '../../images/portfolio-2.jpg';
+import portfolio3 from '../../images/portfolio-3.jpg';
+import portfolio4 from '../../images/portfolio-4.jpg';
+import portfolio5 from '../../images/portfolio-5.jpg';
+import portfolio6 from '../../images/portfolio-6.jpg';
 
 const Projects = () => {
-    return (
-        <section id="projects">
-            <div className="container">
-                <h2>Mes projets</h2>
-                <div className="project-list">
-                    <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
-                        <div className="project">
+    const { t } = useTranslation('common');
+    const projects = [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6];
+
+    return (<section id="projects">
+        <div className="container">
+            <h2>{ t('projects.my_latest') } <span>{ t('projects.projects') }</span></h2>
+            <div className="project-container">
+                { projects.map((project, index) => (
+                    <div className="project-box">
+                        <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
                             <img
-                                src="https://user-images.githubusercontent.com/72151831/229601306-fae7a7d3-7d84-4451-b7a4-9241da7e7e3c.png"
-                                alt="File-Sync"/>
-                            <h3>File-Sync</h3>
-                            <p>Synchronisation de fichiers d'un appareil à un autre</p>
-                        </div>
-                    </a>
-                    <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
-                        <div className="project">
-                            <img
-                                src="https://user-images.githubusercontent.com/72151831/229601306-fae7a7d3-7d84-4451-b7a4-9241da7e7e3c.png"
-                                alt="File-Sync"/>
-                            <h3>File-Sync</h3>
-                            <p>Synchronisation de fichiers d'un appareil à un autre</p>
-                        </div>
-                    </a>
-                    <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
-                        <div className="project">
-                            <img
-                                src="https://user-images.githubusercontent.com/72151831/229601306-fae7a7d3-7d84-4451-b7a4-9241da7e7e3c.png"
-                                alt="File-Sync"/>
-                            <h3>File-Sync</h3>
-                            <p>Synchronisation de fichiers d'un appareil à un autre</p>
-                        </div>
-                    </a>
-                </div>
+                                src={ project } alt={ project }/>
+                            <div className="project-layer">
+                                <h4>{ t(`projects.my_projects.${ index }.name`) }</h4>
+                                <p>{ t(`projects.my_projects.${ index }.description`) }</p>
+                            </div>
+                        </a>
+                    </div>)) }
             </div>
-        </section>
-    );
+        </div>
+    </section>);
 }
 
 export default Projects;

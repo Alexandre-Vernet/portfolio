@@ -1,42 +1,82 @@
+@import "/src/Utils/colors.scss";
 
-section {
+#projects {
+    background: $third-color;
+    height: 100vh;
+
     .container {
-        .project-list {
+        h2 {
             width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            margin-bottom: 100px;
+
+            span {
+                color: $main-color;
+            }
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5em;
             align-items: center;
 
-            a {
-                text-decoration: none;
-                color: #333;
 
-                .project {
+            .project-box {
+                position: relative;
+                display: flex;
+                border-radius: 2em;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                img {
+                    width: 100%;
+                    transition: .5s ease;
+                }
+
+                .project-layer {
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                    background: linear-gradient(rgba(0, 0, 0, 0.5), $main-color);
                     display: flex;
-                    flex-direction: column;
                     justify-content: center;
-                    border: 1px solid #ccc;
                     align-items: center;
-                    margin-bottom: 40px;
-                    padding: 20px;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 0 4em;
+                    transform: translateY(100%);
+                    transition: .5s ease;
 
-                    img {
-                        max-width: 50%;
-                        display: block;
-                        margin-bottom: 20px;
-                    }
-
-                    h3 {
-                        margin: 0;
-                        font-size: 24px;
+                    h4 {
+                        font-size: 2em;
+                        color: $white;
                     }
 
                     p {
-                        margin-top: 10px;
-                        font-size: 16px;
-                        line-height: 1.5;
+                        font-size: 1.2em;
+                        color: $white;
+                        margin: .3em 0 1em;
                     }
+
+                    a {
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 5em;
+                        height: 5em;
+                        border-radius: 50%;
+                    }
+                }
+
+                &:hover img {
+                    transform: scale(1.1);
+                }
+
+                &:hover .project-layer {
+                    transform: translateY(0);
                 }
             }
         }

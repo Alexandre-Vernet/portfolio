@@ -1,22 +1,52 @@
 {
-  "header": {
-    "home": "Accueil",
-    "about": "À propos",
-    "projects": "Mes projets",
-    "contact": "Contact"
-  },
-  "about": {
-    "hello": "Bonjour, je m'appelle",
-    "i_am": "Je suis",
-    "developer": {
-      "fullstack": "un developpeur full-stack",
-      "frontend": "un developpeur front-end",
-      "backend": "un developpeur back-end",
-      "mobile": "un developpeur mobile",
-      "software": "un developpeur logiciel",
-      "developer": "un developpeur"
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Mes projets",
+        "contact": "Contact"
     },
-    "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
-    "download_cv": "Télécharger mon CV"
-  }
+    "about": {
+        "hello": "Bonjour, je m'appelle",
+        "i_am": "Je suis",
+        "developer": {
+            "fullstack": "un developpeur full-stack",
+            "frontend": "un developpeur front-end",
+            "backend": "un developpeur back-end",
+            "mobile": "un developpeur mobile",
+            "software": "un developpeur logiciel",
+            "developer": "un developpeur"
+        },
+        "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
+        "download_cv": "Télécharger mon CV"
+    },
+    "projects": {
+        "my_latest": "Mes derniers",
+        "projects": "projets",
+        "my_projects": [
+            {
+                "name": "File-Sync",
+                "description": "Synchronisation de texte ou de fichiers en temps réel d'un appareil à un autre"
+            },
+            {
+                "name": "Super-Store",
+                "description": "E-Commerce avec gestion de panier, de produits, de commande et de paiement (Stripe)"
+            },
+            {
+                "name": "NAS-Download-Torrent-Plex",
+                "description": "Automatisation de téléchargement de torrent et affichage dans une interface"
+            },
+            {
+                "name": "Program Generator",
+                "description": "Générateur de project web / logiciel avec choix de framework"
+            },
+            {
+                "name": "Météo",
+                "description": "Application météo avec récupération de la position, affichage de la météo actuelle et prévisionnelle"
+            },
+            {
+                "name": "Todo-List",
+                "description": "Application mobile de gestion de tâches partagées avec plusieurs utilisateurs en temps réel"
+            }
+        ]
+    }
 }
