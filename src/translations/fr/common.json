@@ -1,5 +1,22 @@
 {
   "header": {
-    "home": "Accueil"
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Mes projets",
+    "contact": "Contact"
+  },
+  "about": {
+    "hello": "Bonjour, je m'appelle",
+    "i_am": "Je suis",
+    "developer": {
+      "fullstack": "un developpeur full-stack",
+      "frontend": "un developpeur front-end",
+      "backend": "un developpeur back-end",
+      "mobile": "un developpeur mobile",
+      "software": "un developpeur logiciel",
+      "developer": "un developpeur"
+    },
+    "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
+    "download_cv": "Télécharger mon CV"
   }
 }
