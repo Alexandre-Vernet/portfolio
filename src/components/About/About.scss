@@ -21,6 +21,7 @@
             justify-content: flex-start;
             text-align: left;
 
+
             h1 {
                 font-size: 4em;
                 font-weight: 900;
@@ -115,8 +116,12 @@
             margin-top: 450px;
             padding: 1em;
 
-            .text > h1 {
-                font-size: 3em;
+            .text {
+                padding: .5em;
+
+                h1 {
+                    font-size: 3em;
+                }
             }
         }
 
