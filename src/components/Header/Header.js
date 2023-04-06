@@ -31,10 +31,10 @@ const Header = () => {
                 <h1>Alexandre Vernet</h1>
                 <nav>
                     <ul>
-                        <li><a href="#about">{t('header.home')}</a></li>
-                        <li><a href="#about">{t('header.about')}</a></li>
-                        <li><a href="#projects">{t('header.projects')}</a></li>
-                        <li><a href="#contact">{t('header.contact')}</a></li>
+                        <li><a href={ "#about" }>{t('header.home')}</a></li>
+                        <li><a href={ "#about" }>{t('header.about')}</a></li>
+                        <li><a href={ "#projects" }>{t('header.projects')}</a></li>
+                        <li><a href={ "#contact" }>{t('header.contact')}</a></li>
                     </ul>
                 </nav>
                 <div className="bars">
