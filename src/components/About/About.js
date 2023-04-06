@@ -4,38 +4,38 @@ import Github from "../../Images/svg/Github";
 import CV from "../../Files/CV.pdf";
 import Email from "../../Images/svg/Email";
 import { TypeAnimation } from "react-type-animation";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+    const { t } = useTranslation('common');
     return (
         <section id="about">
             <section className="left">
                 <div className="text">
-                    <h2>Bonjour, je m'appelle</h2>
+                    <h2>{t('about.hello')}</h2>
                     <h1>Alexandre Vernet</h1>
-                    <h2>Je suis un <span className="job-name">
+                    <h2>{t('about.i_am')} <span className="job-name">
                             <TypeAnimation
                                 sequence={ [
-                                    'développeur full-stack',
+                                    t('about.developer.fullstack'),
                                     1000, // Waits 1s
-                                    'développeur frontend',
+                                    t('about.developer.frontend'),
                                     1000,
-                                    'développeur backend',
+                                    t('about.developer.backend'),
                                     1000,
-                                    'développeur mobile',
+                                    t('about.developer.mobile'),
                                     1000,
-                                    'développeur logiciel',
+                                    t('about.developer.software'),
                                     1000,
-                                    'développeur',
+                                    t('about.developer.developer'),
                                     1000,
-                                    'développeur full-stack',
+                                    t('about.developer.fullstack'),
                                 ] }
                                 wrapper="span"
                                 cursor={ true }/>
 
                     </span></h2>
-                    <p>
-                        J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.
-                    </p>
+                    <p>{t('about.description')}</p>
                 </div>
                 <div className="social-medias">
                     <Email/>
@@ -44,7 +44,7 @@ const About = () => {
                 </div>
                 <div className="curriculum-vitae">
                     <a href={ CV } target="_blank" rel="noreferrer">
-                        <button>Télécharger mon CV</button>
+                        <button>{t('about.download_cv')}</button>
                     </a>
                 </div>
             </section>
