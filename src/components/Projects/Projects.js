@@ -19,7 +19,7 @@ const Projects = () => {
                 { projects.map((project, index) => (
                     <div className="project-box"
                          key={ index }>
-                        <a href="https://file-sync.onrender.com/" target="_blank" rel="noreferrer">
+                        <a href={ t(`projects.my_projects.${ index }.url`) } target="_blank" rel="noreferrer">
                             <LazyLoadImage
                                 alt={ project + index }
                                 src={ project }

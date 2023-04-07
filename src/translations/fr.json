@@ -38,27 +38,33 @@
         "my_projects": [
             {
                 "name": "File-Sync",
-                "description": "Synchronisation fichiers (images, vidéos, texte, markdown ...) en temps réel d'un appareil à un autre"
+                "description": "Synchronisation fichiers (images, vidéos, texte, markdown ...) en temps réel d'un appareil à un autre",
+                "url": "https://file-sync.onrender.com"
             },
             {
                 "name": "Super-Store",
-                "description": "E-Commerce avec gestion de panier, de produits, de commande et de paiement (Stripe)"
+                "description": "E-Commerce avec gestion de panier, de produits, de commande et de paiement (Stripe)",
+                "url":  "https://github.com/Alexandre-Vernet"
             },
             {
                 "name": "NAS-Download-Torrent-Plex",
-                "description": "Automatisation de téléchargement de torrent et affichage dans une interface"
+                "description": "Automatisation de téléchargement de torrent et affichage dans une interface",
+                "url":  "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
             },
             {
                 "name": "Program Generator",
-                "description": "Générateur de project web / logiciel avec choix de framework"
+                "description": "Générateur de project web / logiciel avec choix de framework",
+                "url":  "https://github.com/Alexandre-Vernet/Program-Generator"
             },
             {
                 "name": "Météo",
-                "description": "Application météo avec récupération de la position, affichage de la météo actuelle et prévisionnelle"
+                "description": "Application météo avec récupération de la position, affichage de la météo actuelle et prévisionnelle",
+                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
             },
             {
                 "name": "Todo-List",
-                "description": "Application mobile de gestion de tâches partagées avec plusieurs utilisateurs en temps réel"
+                "description": "Application mobile de gestion de tâches partagées avec plusieurs utilisateurs en temps réel",
+                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
             }
         ]
     }

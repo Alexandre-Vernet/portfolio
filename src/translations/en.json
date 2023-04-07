@@ -38,27 +38,33 @@
         "my_projects": [
             {
                 "name": "File-Sync",
-                "description": "Share files (images, videos, text, markdown ...) in real time from one device to another"
+                "description": "Share files (images, videos, text, markdown ...) in real time from one device to another",
+                "url": "https://file-sync.onrender.com"
             },
             {
                 "name": "Super-Store",
-                "description": "E-Commerce with cart management, products, orders and payment (Stripe)"
+                "description": "E-Commerce with cart management, products, orders and payment (Stripe)",
+                "url":  "https://github.com/Alexandre-Vernet"
             },
             {
                 "name": "NAS-Download-Torrent-Plex",
-                "description": "Automated torrent download and display movies & series in an interface"
+                "description": "Automated torrent download and display movies & series in an interface",
+                "url":  "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
             },
             {
                 "name": "Program Generator",
-                "description": "Web / software project generator with framework choice"
+                "description": "Web / software project generator with framework choice",
+                "url":  "https://github.com/Alexandre-Vernet/Program-Generator"
             },
             {
                 "name": "Weather-App",
-                "description": "Weather application with position retrieval, display of current and forecast weather"
+                "description": "Weather application with position retrieval, display of current and forecast weather",
+                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
             },
             {
                 "name": "Todo-List",
-                "description": "Mobile application for managing shared tasks with multiple users in real time"
+                "description": "Mobile application for managing shared tasks with multiple users in real time",
+                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
             }
         ]
     }
