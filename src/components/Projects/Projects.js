@@ -1,16 +1,16 @@
 import './Projects.scss';
 import { useTranslation } from "react-i18next";
-import portfolio1 from '../../images/portfolio-1.jpg';
-import portfolio2 from '../../images/portfolio-2.jpg';
-import portfolio3 from '../../images/portfolio-3.jpg';
-import portfolio4 from '../../images/portfolio-4.jpg';
-import portfolio5 from '../../images/portfolio-5.jpg';
-import portfolio6 from '../../images/portfolio-6.jpg';
+import project1 from '../../images/project-1.jpg';
+import project2 from '../../images/project-2.jpg';
+import project3 from '../../images/project-3.jpg';
+import project4 from '../../images/project-4.jpg';
+import project5 from '../../images/project-5.jpg';
+import project6 from '../../images/project-6.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
     const { t } = useTranslation('common');
-    const projects = [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6];
+    const projects = [project1, project2, project3, project4, project5, project6];
 
     return (<section className="projects" id="projects">
         <div className="container">
