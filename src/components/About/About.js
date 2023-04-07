@@ -17,19 +17,19 @@ const About = () => {
                     <h2>{t('about.i_am')} <span className="job-name">
                             <TypeAnimation
                                 sequence={ [
-                                    t('about.developer.fullstack'),
+                                    t('about.developer.0.name'),
                                     1000, // Waits 1s
-                                    t('about.developer.frontend'),
+                                    t('about.developer.1.name'),
                                     1000,
-                                    t('about.developer.backend'),
+                                    t('about.developer.2.name'),
                                     1000,
-                                    t('about.developer.mobile'),
+                                    t('about.developer.3.name'),
                                     1000,
-                                    t('about.developer.software'),
+                                    t('about.developer.4.name'),
                                     1000,
-                                    t('about.developer.developer'),
+                                    t('about.developer.5.name'),
                                     1000,
-                                    t('about.developer.fullstack'),
+                                    t('about.developer.6.name'),
                                 ] }
                                 wrapper="span"
                                 cursor={ true }/>

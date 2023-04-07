@@ -8,14 +8,26 @@
     "about": {
         "hello": "Hello, I'm",
         "i_am": "I'm",
-        "developer": {
-            "fullstack": "a full-stack developer",
-            "frontend": "a front-end developer",
-            "backend": "a back-end developer",
-            "mobile": "a mobile developer",
-            "software": "a software developer",
-            "developer": "a developer"
-        },
+        "developer": [
+            {
+                "name": "a full-stack developer"
+            },
+            {
+                "name": "a front-end developer"
+            },
+            {
+                "name": "a back-end developer"
+            },
+            {
+                "name": "a mobile developer"
+            },
+            {
+                "name": "a software developer"
+            },
+            {
+                "name": "a developer"
+            }
+        ],
         "description": "I'm 23 years old, I live in Toulouse and I work as a software engineer at Capgemini.",
         "download_cv": "Download my CV"
     },

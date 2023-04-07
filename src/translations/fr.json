@@ -8,14 +8,26 @@
     "about": {
         "hello": "Bonjour, je m'appelle",
         "i_am": "Je suis",
-        "developer": {
-            "fullstack": "un developpeur full-stack",
-            "frontend": "un developpeur front-end",
-            "backend": "un developpeur back-end",
-            "mobile": "un developpeur mobile",
-            "software": "un developpeur logiciel",
-            "developer": "un developpeur"
-        },
+        "developer": [
+            {
+                "name": "un développeur full-stack"
+            },
+            {
+                "name": "un développeur front-end"
+            },
+            {
+                "name": "un développeur back-end"
+            },
+            {
+                "name": "un développeur mobile"
+            },
+            {
+                "name": "un ingénieur logiciel"
+            },
+            {
+                "name": "un développeur"
+            }
+        ],
         "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
         "download_cv": "Télécharger mon CV"
     },
