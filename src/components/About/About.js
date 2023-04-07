@@ -13,7 +13,7 @@ const About = () => {
             <section className="left">
                 <div className="text">
                     <h2>{ t('about.hello') }</h2>
-                    <h1>Alexandre Vernet</h1>
+                    <h1>{ t('my_name') }</h1>
                     <h2>{ t('about.i_am') } <span className="job-name">
                             <TypeAnimation
                                 sequence={ Sequence() }
