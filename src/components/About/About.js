@@ -12,30 +12,16 @@ const About = () => {
         <section id="about">
             <section className="left">
                 <div className="text">
-                    <h2>{t('about.hello')}</h2>
+                    <h2>{ t('about.hello') }</h2>
                     <h1>Alexandre Vernet</h1>
-                    <h2>{t('about.i_am')} <span className="job-name">
+                    <h2>{ t('about.i_am') } <span className="job-name">
                             <TypeAnimation
-                                sequence={ [
-                                    t('about.developer.0.name'),
-                                    1000, // Waits 1s
-                                    t('about.developer.1.name'),
-                                    1000,
-                                    t('about.developer.2.name'),
-                                    1000,
-                                    t('about.developer.3.name'),
-                                    1000,
-                                    t('about.developer.4.name'),
-                                    1000,
-                                    t('about.developer.5.name'),
-                                    1000,
-                                    t('about.developer.6.name'),
-                                ] }
+                                sequence={ Sequence() }
                                 wrapper="span"
                                 cursor={ true }/>
 
                     </span></h2>
-                    <p>{t('about.description')}</p>
+                    <p>{ t('about.description') }</p>
                 </div>
                 <div className="social-medias">
                     <Email/>
@@ -44,7 +30,7 @@ const About = () => {
                 </div>
                 <div className="curriculum-vitae">
                     <a href={ CV } target="_blank" rel="noreferrer">
-                        <button>{t('about.download_cv')}</button>
+                        <button>{ t('about.download_cv') }</button>
                     </a>
                 </div>
             </section>
@@ -56,5 +42,22 @@ const About = () => {
         </section>
     );
 }
-
+const Sequence = () => {
+    const { t } = useTranslation('common');
+    return [
+        t('about.developer.0.name'),
+        1000, // Waits 1s
+        t('about.developer.1.name'),
+        1000,
+        t('about.developer.2.name'),
+        1000,
+        t('about.developer.3.name'),
+        1000,
+        t('about.developer.4.name'),
+        1000,
+        t('about.developer.5.name'),
+        1000,
+        t('about.developer.6.name'),
+    ];
+}
 export default About;
