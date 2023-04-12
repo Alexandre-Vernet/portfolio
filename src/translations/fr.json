@@ -67,5 +67,14 @@
                 "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
             }
         ]
+    },
+    "contact": {
+        "contact": "Contactez",
+        "me": "moi",
+        "full_name": "Nom complet",
+        "email": "Email",
+        "email_subject": "Sujet",
+        "email_description": "Votre message",
+        "send": "Envoyer"
     }
 }

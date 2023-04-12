@@ -1,0 +1,18 @@
+@import "/src/utils/colors.scss";
+
+button {
+    background: $main-color;
+    color: #1f232d;
+    border: none;
+    padding: .9em 1.5em;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 1em $main-color;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
