@@ -72,7 +72,7 @@ self.addEventListener('message', (event) => {
 
 // Force update on reload
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').then(function (registration) {
+    navigator.serviceWorker.register('service-worker.js').then(function (registration) {
         registration.addEventListener('updatefound', function () {
             const installingWorker = registration.installing;
             installingWorker.addEventListener('statechange', function () {
