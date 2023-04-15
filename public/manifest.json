@@ -3,8 +3,8 @@
   "name": "Portfolio",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "theme_color": "#1f232d",
+  "background_color": "#fafafa",
   "icons": [
     {
       "src": "icons/windows11/SmallTile.scale-100.png",

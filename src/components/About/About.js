@@ -57,7 +57,7 @@ const Sequence = () => {
         1000,
         t('about.developer.5.name'),
         1000,
-        t('about.developer.6.name'),
+        t('about.developer.0.name'),
     ];
 }
 export default About;
