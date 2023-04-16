@@ -18,9 +18,9 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        const endpoint = 'http://localhost:3333/portfolio';
+        const ENDPOINT_EMAIL = process.env.REACT_APP_URL_ENDPOINT_EMAIL;
 
-        const promise = axios.post(endpoint, formData);
+        const promise = axios.post(ENDPOINT_EMAIL, formData);
 
         notifyPromise(promise, {
             loading: t('contact.sending_form'),
