@@ -5,7 +5,7 @@ import { useState } from "react";
 import { notifyPromise } from "../Toast/Toast";
 
 const Contact = () => {
-    const {t} = useTranslation('common');
+    const { t } = useTranslation('common');
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -13,7 +13,7 @@ const Contact = () => {
     });
 
     const handleInputChange = (event) => {
-        setFormData({...formData, [event.target.name]: event.target.value});
+        setFormData({ ...formData, [event.target.name]: event.target.value });
     };
 
     const sendEmail = (e) => {
@@ -36,9 +36,11 @@ const Contact = () => {
                 <div className="contact-container">
                     <form>
                         <div className="form-group">
-                            <input type="text" name="name" value={ formData.name } onChange={ handleInputChange } required
+                            <input type="text" name="name" value={ formData.name } onChange={ handleInputChange }
+                                   required
                                    placeholder={ t('contact.full_name') }/>
-                            <input type="email" name="email" value={ formData.email } onChange={ handleInputChange } required
+                            <input type="email" name="email" value={ formData.email } onChange={ handleInputChange }
+                                   required
                                    placeholder={ t('contact.email') }/>
                         </div>
                         <div className="form-group">
