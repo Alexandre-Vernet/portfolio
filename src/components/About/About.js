@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 const About = () => {
     const { t } = useTranslation('common');
     return (
-        <section id="about">
+        <section className="about" id="about">
             <section className="left">
                 <div className="text">
                     <h2>{ t('about.hello') }</h2>

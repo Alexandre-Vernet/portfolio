@@ -1,7 +1,7 @@
 @import "/src/utils/colors.scss";
 @import "/src/utils/button.scss";
 
-#about {
+.about {
     height: 110vh;
     width: 100%;
     background: $second-color;
@@ -96,12 +96,13 @@
 
 
 @media (max-width: 1200px) {
-    #about {
+    .about {
+        height: auto;
         flex-direction: column;
 
         .left {
             width: 100%;
-            margin-top: 450px;
+            margin-top: 150px;
             padding: 1em;
 
             .text {
@@ -127,7 +128,7 @@
 }
 
 @media (max-width: 507px) {
-    #about > .left {
+    .about > .left {
         margin-top: 200px;
 
         .text {
