@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="container">
                 <h2>{ t('contact.contact') } <span>{ t('contact.me') }</span></h2>
                 <div className="contact-container">
-                    <form>
+                    <form onSubmit={ (e) => sendEmail(e) }>
                         <div className="form-group">
                             <input type="text" name="name" value={ formData.name } onChange={ handleInputChange }
                                    required
@@ -49,7 +49,7 @@ const Contact = () => {
                                       placeholder={ t('contact.email_description') }></textarea>
                         </div>
                         <div className="form-group">
-                            <button onClick={ (e) => sendEmail(e) } type="button">{ t('contact.send') }</button>
+                            <button type="submit">{ t('contact.send') }</button>
                         </div>
                     </form>
                 </div>
