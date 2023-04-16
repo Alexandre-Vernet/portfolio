@@ -18,14 +18,14 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        const endpoint = 'http://localhost:3333';
+        const endpoint = 'http://localhost:3333/portfolio';
 
         const promise = axios.post(endpoint, formData);
 
         notifyPromise(promise, {
-            loading: t('contact.sending_email'),
-            success: t('contact.email_sent'),
-            error: t('contact.email_not_sent'),
+            loading: t('contact.sending_form'),
+            success: t('contact.form_sent'),
+            error: t('contact.form_not_sent'),
         });
     }
 
