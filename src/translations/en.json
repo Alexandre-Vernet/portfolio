@@ -75,6 +75,9 @@
         "email": "Email",
         "email_subject": "Subject",
         "email_description": "Your message",
-        "send": "Send"
+        "send": "Send",
+        "sending_form": "Sending form ...",
+        "form_sent": "Form sent",
+        "form_not_sent": "Error sending form"
     }
 }
