@@ -26,6 +26,7 @@
 
             form {
                 width: 60%;
+
                 .form-group {
                     display: flex;
                     justify-content: center;
@@ -41,7 +42,7 @@
                         border-radius: 8px;
                         outline: none;
                         font-size: 1.2em;
-                        color: $white;
+                        color: $main-color;
                         background: $second-color;
                         resize: none;
                         font-family: 'Open Sans', sans-serif;
@@ -52,6 +53,19 @@
                         margin-top: 1em;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 440px) {
+    .contact > .container > .contact-container > form {
+        .form-group {
+            width: 100%;
+
+            input, textarea {
+                font-size: 1em;
             }
         }
     }
