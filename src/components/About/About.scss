@@ -129,7 +129,7 @@
 
 @media (max-width: 507px) {
     .about > .left {
-        margin-top: 200px;
+        margin-top: 150px;
 
         .text {
             h1 {
@@ -145,13 +145,33 @@
             }
         }
 
-        .social-medias > a {
-            padding: .8em;
+        .social-medias {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                padding: .6em;
+            }
 
             svg {
                 width: 25px;
                 height: 20px;
             }
+        }
+
+        .curriculum-vitae > a > button {
+            padding: .8em 1.3em;
+        }
+    }
+}
+
+@media (max-width: 260px) {
+    .about > .right {
+        img {
+            max-width: 200px;
+            max-height: 200px;
         }
     }
 }
