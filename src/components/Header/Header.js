@@ -34,15 +34,19 @@ const Header = () => {
     }
 
     const setFlag = () => {
-        const lang = i18next.language === 'en' ? 'fr' : 'en';
+        const lang = i18next.language;
+        storeLangInLocalStorage(lang);
         switch (lang) {
             case 'fr':
                 return fr;
             case 'en':
-                return en;
             default:
                 return en;
         }
+    }
+
+    const storeLangInLocalStorage = (lang) => {
+        localStorage.setItem('lang', lang);
     }
 
     return (

@@ -9,9 +9,10 @@ import i18next from "i18next";
 import common_fr from "./translations/fr.json";
 import common_en from "./translations/en.json";
 
+const lang = localStorage.getItem('lang') || 'en';
 i18next.init({
     interpolation: { escapeValue: false },
-    lng: 'en',
+    lng: lang,
     resources: {
         en: {
             common: common_en,
