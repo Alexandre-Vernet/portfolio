@@ -16,6 +16,21 @@ header {
         align-items: center;
         margin: 0 30px 0 30px;
 
+        .navbar-title-responsive {
+            width: 100%;
+            display: none;
+            justify-content: space-around;
+            align-items: center;
+
+            .bars {
+                svg {
+                    width: 30px;
+                    height: 30px;
+                    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(139deg) brightness(103%) contrast(105%);
+                }
+            }
+        }
+
         nav {
             ul {
                 list-style: none;
@@ -49,25 +64,46 @@ header {
                 }
             }
         }
-
-        .bars {
-            display: none;
-
-            svg {
-                width: 40px;
-                filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(139deg) brightness(103%) contrast(105%);
-            }
-        }
     }
 }
 
 @media (max-width: 768px) {
     header {
-        .navbar {
-            flex-direction: row;
+        padding: 0;
+        background: $third-color;
 
-            nav > ul {
+        .navbar {
+            display: inline-block;
+            width: 100%;
+            border-bottom: 1px solid $main-color;
+            padding: 0;
+
+            .name {
                 display: none;
+            }
+
+            .navbar-title-responsive {
+                display: flex;
+            }
+
+            nav {
+                transition: all 0.2s ease;
+                display: none;
+
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 20px;
+                    padding: 1em;
+                }
+
+                &.active {
+                    display: flex;
+                }
             }
 
             .bars {
@@ -80,7 +116,7 @@ header {
 
 @media (max-width: 450px) {
     header {
-        .navbar > h1 {
+        .navbar > .navbar-title-responsive > h1 {
             font-size: 1.7em;
         }
     }
