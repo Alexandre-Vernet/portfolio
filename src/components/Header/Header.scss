@@ -21,6 +21,7 @@ header {
             display: none;
             justify-content: space-around;
             align-items: center;
+            border-bottom: 1px solid $main-color;
 
             .bars {
                 svg {
@@ -75,7 +76,7 @@ header {
         .navbar {
             display: inline-block;
             width: 100%;
-            border-bottom: 1px solid $main-color;
+            margin: 0;
             padding: 0;
 
             .name {
