@@ -104,6 +104,10 @@ header {
                     width: 100%;
                     gap: 20px;
                     padding: 1em;
+
+                    li:active {
+                        color: $main-color;
+                    }
                 }
 
                 &.active {
