@@ -72,9 +72,9 @@ const Header = () => {
     return (
         <header style={ headerStyle }>
             <div className="navbar">
-                <h1 className="name">Alexandre Vernet</h1>
+                <h1 className="name">{ t('my_name') }</h1>
                 <div className="navbar-title-responsive">
-                    <h1>Alexandre Vernet</h1>
+                    <h1>{ t('my_name') }</h1>
                     <div className="bars" onClick={ toggleMenu }>
                         <Bars/>
                     </div>
