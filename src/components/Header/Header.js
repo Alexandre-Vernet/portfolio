@@ -5,11 +5,13 @@ import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import fr from "../../images/png/flags/fr.png";
 import en from "../../images/png/flags/en.png";
+import XMark from "../../images/svg/XMark";
 
 const Header = () => {
     const { t } = useTranslation('common');
     const [scrollPosition, setScrollPosition] = useState(0);
     const [width, setWidth] = useState(window.innerWidth);
+    const [responsiveMenu, setResponsiveMenu] = useState(false);
 
 
     useEffect(() => {
@@ -60,6 +62,7 @@ const Header = () => {
     }
 
     const toggleMenu = () => {
+        setResponsiveMenu(!responsiveMenu);
         const menu = document.querySelector('nav');
         menu.classList.toggle('active');
     }
@@ -67,6 +70,7 @@ const Header = () => {
     const closeMenu = () => {
         const menu = document.querySelector('nav');
         menu.classList.remove('active');
+        setResponsiveMenu(false);
     }
 
     return (
@@ -76,7 +80,9 @@ const Header = () => {
                 <div className="navbar-title-responsive">
                     <h1>{ t('my_name') }</h1>
                     <div className="bars" onClick={ toggleMenu }>
-                        <Bars/>
+                        {
+                            responsiveMenu ? <XMark/> : <Bars/>
+                        }
                     </div>
                 </div>
                 <nav>
