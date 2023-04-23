@@ -1,11 +1,11 @@
 import './Projects.scss';
 import { useTranslation } from "react-i18next";
-import project1 from '../../images/project-1.jpg';
-import project2 from '../../images/project-2.jpg';
-import project3 from '../../images/project-3.jpg';
-import project4 from '../../images/project-4.jpg';
-import project5 from '../../images/project-5.jpg';
-import project6 from '../../images/project-6.jpg';
+import project1 from '../../images/jpg/project-1.jpg';
+import project2 from '../../images/jpg/project-2.jpg';
+import project3 from '../../images/jpg/project-3.jpg';
+import project4 from '../../images/jpg/project-4.jpg';
+import project5 from '../../images/jpg/project-5.jpg';
+import project6 from '../../images/jpg/project-6.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
