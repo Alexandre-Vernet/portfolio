@@ -10,13 +10,13 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
     const { t } = useTranslation('common');
-    const projects = [project1, project2, project3, project4, project5, project6];
+    const projectsImages = [project1, project2, project3, project4, project5, project6];
 
     return (<section className="projects" id="projects">
         <div className="section-container">
             <h2>{ t('projects.my_latest') } <span>{ t('projects.projects') }</span></h2>
             <div className="project-container">
-                { projects.map((project, index) => (
+                { projectsImages.map((project, index) => (
                     <div className="project-box"
                          key={ index }>
                         <a href={ t(`projects.my_projects.${ index }.url`) } target="_blank" rel="noreferrer">
