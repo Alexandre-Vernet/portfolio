@@ -88,10 +88,10 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href={ "#about" } onClick={ closeMenu }>{ t('header.home') }</a>
+                            <a href={ "#about" } onClick={ closeMenu }>{ t('header.about') }</a>
                         </li>
                         <li>
-                            <a href={ "#about" } onClick={ closeMenu }>{ t('header.about') }</a>
+                            <a href={ "#skills" } onClick={ closeMenu }>{ t('header.skills') }</a>
                         </li>
                         <li>
                             <a href={ "#projects" } onClick={ closeMenu }>{ t('header.projects') }</a>
