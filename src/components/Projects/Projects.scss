@@ -1,6 +1,7 @@
 @import "/src/utils/colors.scss";
 
 .projects {
+    height: 100vh;
     background: $second-color;
 
     .section-container {
@@ -83,8 +84,12 @@
 }
 
 @media (max-width: 1250px) {
-    .projects .section-container > .project-container {
-        grid-template-columns: repeat(2, 1fr);
+    .projects {
+        height: auto;
+
+        .section-container > .project-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 }
 
