@@ -4,7 +4,7 @@
 .contact {
     background: $third-color;
 
-    .container {
+    .section-container {
         h2 {
             width: 100%;
             text-align: center;
@@ -60,7 +60,7 @@
 
 
 @media (max-width: 440px) {
-    .contact > .container > .contact-container > form {
+    .contact > .section-container > .contact-container > form {
         .form-group {
             width: 100%;
 

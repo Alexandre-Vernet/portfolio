@@ -37,7 +37,7 @@ const Skills = () => {
 
     return (
         <section className="skills" id="skills">
-            <div className="container">
+            <div className="section-container">
                 <h2>{ t('skills.my') } <span>{ t('skills.skills') }</span></h2>
                 <div className="skills-container">
                     { skills.map((skill, index) => {

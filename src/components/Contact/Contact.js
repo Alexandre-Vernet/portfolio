@@ -31,7 +31,7 @@ const Contact = () => {
 
     return (
         <section className="contact" id="contact">
-            <div className="container">
+            <div className="section-container">
                 <h2>{ t('contact.contact') } <span>{ t('contact.me') }</span></h2>
                 <div className="contact-container">
                     <form onSubmit={ (e) => sendEmail(e) }>

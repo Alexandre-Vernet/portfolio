@@ -3,7 +3,7 @@
 .projects {
     background: $second-color;
 
-    .container {
+    .section-container {
         h2 {
             width: 100%;
             text-align: center;
@@ -83,13 +83,13 @@
 }
 
 @media (max-width: 1250px) {
-    #projects .container > .project-container {
+    #projects .section-container > .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 750px) {
-    #projects .container > .project-container {
+    #projects .section-container > .project-container {
         grid-template-columns: repeat(1, 1fr);
 
         .project-box {

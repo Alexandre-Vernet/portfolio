@@ -13,7 +13,7 @@ const Projects = () => {
     const projects = [project1, project2, project3, project4, project5, project6];
 
     return (<section className="projects" id="projects">
-        <div className="container">
+        <div className="section-container">
             <h2>{ t('projects.my_latest') } <span>{ t('projects.projects') }</span></h2>
             <div className="project-container">
                 { projects.map((project, index) => (
