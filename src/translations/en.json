@@ -3,6 +3,7 @@
     "header": {
         "home": "Home",
         "about": "About",
+        "skills": "Skills",
         "projects": "My projects",
         "contact": "Contact"
     },
@@ -32,6 +33,30 @@
         "description": "I'm 23 years old, I live in Toulouse and I work as a software engineer at Capgemini.",
         "download_cv": "Download my CV"
     },
+    "skills": {
+        "my": "My",
+        "skills": "skills",
+        "skills_list": {
+            "front_end": [
+                "JavaScript",
+                "TypeScript",
+                "Angular",
+                "React"
+            ],
+            "back_end": [
+                "NodeJS",
+                "Express",
+                "NestJS",
+                "Laravel"
+            ],
+            "database": [
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL",
+                "Firebase"
+            ]
+        }
+    },
     "projects": {
         "my_latest": "My latest",
         "projects": "projects",
@@ -44,27 +69,27 @@
             {
                 "name": "Super-Store",
                 "description": "E-Commerce with cart management, products, orders and payment (Stripe)",
-                "url":  "https://github.com/Alexandre-Vernet/SuperStore"
+                "url": "https://github.com/Alexandre-Vernet/SuperStore"
             },
             {
                 "name": "NAS-Download-Torrent-Plex",
                 "description": "Automated torrent download and display movies & series in an interface",
-                "url":  "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
+                "url": "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
             },
             {
                 "name": "Program Generator",
                 "description": "Web / software project generator with framework choice",
-                "url":  "https://github.com/Alexandre-Vernet/Program-Generator"
+                "url": "https://github.com/Alexandre-Vernet/Program-Generator"
             },
             {
                 "name": "Weather-App",
                 "description": "Weather application with position retrieval, display of current and forecast weather",
-                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
             },
             {
                 "name": "Todo-List",
                 "description": "Mobile application for managing shared tasks with multiple users in real time",
-                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
             }
         ]
     },

@@ -3,6 +3,7 @@
     "header": {
         "home": "Accueil",
         "about": "À propos",
+        "skills": "Compétences",
         "projects": "Mes projets",
         "contact": "Contact"
     },
@@ -32,6 +33,30 @@
         "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
         "download_cv": "Télécharger mon CV"
     },
+    "skills": {
+        "my": "Mes",
+        "skills": "compétences",
+        "skills_list": {
+            "front_end": [
+                "JavaScript",
+                "TypeScript",
+                "Angular",
+                "React"
+            ],
+            "back_end": [
+                "NodeJS",
+                "Express",
+                "NestJS",
+                "Laravel"
+            ],
+            "database": [
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL",
+                "Firebase"
+            ]
+        }
+    },
     "projects": {
         "my_latest": "Mes derniers",
         "projects": "projets",
@@ -44,27 +69,27 @@
             {
                 "name": "Super-Store",
                 "description": "E-Commerce avec gestion de panier, de produits, de commande et de paiement (Stripe)",
-                "url":  "https://github.com/Alexandre-Vernet/SuperStore"
+                "url": "https://github.com/Alexandre-Vernet/SuperStore"
             },
             {
                 "name": "NAS-Download-Torrent-Plex",
                 "description": "Automatisation de téléchargement de torrent et affichage dans une interface",
-                "url":  "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
+                "url": "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
             },
             {
                 "name": "Program Generator",
                 "description": "Générateur de project web / logiciel avec choix de framework",
-                "url":  "https://github.com/Alexandre-Vernet/Program-Generator"
+                "url": "https://github.com/Alexandre-Vernet/Program-Generator"
             },
             {
                 "name": "Météo",
                 "description": "Application météo avec récupération de la position, affichage de la météo actuelle et prévisionnelle",
-                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
             },
             {
                 "name": "Todo-List",
                 "description": "Application mobile de gestion de tâches partagées avec plusieurs utilisateurs en temps réel",
-                "url":  "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
             }
         ]
     },
