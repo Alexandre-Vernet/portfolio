@@ -6,8 +6,8 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
-import common_fr from "./translations/fr.json";
-import common_en from "./translations/en.json";
+import common_fr from "./lang/fr.json";
+import common_en from "./lang/en.json";
 
 const lang = localStorage.getItem('lang') || 'en';
 i18next.init({
