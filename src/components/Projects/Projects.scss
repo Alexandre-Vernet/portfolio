@@ -1,10 +1,11 @@
 @import "/src/utils/colors.scss";
 
 .projects {
-    height: 100vh;
     background: $second-color;
 
     .section-container {
+        padding: 2em 0;
+
         h2 {
             width: 100%;
             text-align: center;
@@ -21,84 +22,69 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 2.5em;
-            align-items: center;
+            align-items: stretch;
+            padding: 2em;
 
 
             .project-box {
-                position: relative;
-                display: flex;
                 border-radius: 2em;
-                overflow: hidden;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
-                img {
-                    width: 100%;
-                    transition: .5s ease;
-                }
-
-                .project-layer {
-                    position: absolute;
-                    width: 100%;
-                    bottom: 0;
-                    background: linear-gradient(rgba(0, 0, 0, 0.5), $main-color);
+                .project {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    text-align: center;
-                    padding: 0 4em;
-                    transform: translateY(100%);
-                    transition: .3s ease;
+                    text-decoration: none;
+
+                    img {
+                        width: 250px;
+                        margin: 1em;
+                    }
+
 
                     h4 {
                         font-size: 2em;
                         color: $white;
+                        text-align: center;
+                        margin: .3em 1em;
                     }
 
                     p {
                         font-size: 1.2em;
                         color: $white;
-                        margin: .3em 0 1em;
+                        margin: 2em;
+                        text-align: center;
                     }
 
-                    a {
-                        display: inline-flex;
-                        justify-content: center;
-                        align-items: center;
-                        width: 5em;
-                        height: 5em;
-                        border-radius: 50%;
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: all .5s ease;
                     }
-                }
-
-                &:hover img {
-                    transform: scale(1.1);
-                }
-
-                &:hover .project-layer {
-                    transform: translateY(0);
                 }
             }
         }
     }
 }
 
-@media (max-width: 1250px) {
-    .projects {
-        height: auto;
-
-        .section-container > .project-container {
-            grid-template-columns: repeat(2, 1fr);
-        }
+@media (max-width: 1050px) {
+    .projects > .section-container > .project-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 750px) {
     .projects .section-container > .project-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
 
-        .project-box {
-            height: 300px
+@media (max-width: 500px) {
+    .projects .section-container > .project-container {
+        padding: .5em;
+
+        .project-box > .project > img {
+            width: 150px;
         }
     }
 }

@@ -64,32 +64,38 @@
             {
                 "name": "File-Sync",
                 "description": "Synchronisation fichiers (images, vidéos, texte, markdown ...) en temps réel d'un appareil à un autre",
-                "url": "https://file-sync.onrender.com"
+                "url": "https://file-sync.onrender.com",
+                "image": "https://user-images.githubusercontent.com/72151831/235187116-7f8194d5-fd4a-4876-8ccf-9f64c6cf04f0.png"
             },
             {
                 "name": "Super-Store",
                 "description": "E-Commerce avec gestion de panier, de produits, de commande et de paiement (Stripe)",
-                "url": "https://superstore-hxlq.onrender.com"
+                "url": "https://superstore-hxlq.onrender.com",
+                "image": "https://user-images.githubusercontent.com/72151831/235196115-4bb52aed-fe25-4ac3-b613-371fb38e1b10.png"
             },
             {
                 "name": "NAS-Download-Torrent-Plex",
                 "description": "Automatisation de téléchargement de torrent et affichage dans une interface",
-                "url": "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex"
+                "url": "https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex",
+                "image": "https://user-images.githubusercontent.com/72151831/235195162-d83c3c40-a945-4c33-b4e2-fce2385f727d.png"
             },
             {
                 "name": "Program Generator",
                 "description": "Générateur de project web / logiciel avec choix de framework",
-                "url": "https://github.com/Alexandre-Vernet/Program-Generator"
+                "url": "https://github.com/Alexandre-Vernet/Program-Generator",
+                "image": "https://user-images.githubusercontent.com/72151831/235188059-38baf27c-56fd-495f-bc07-c2af1fce67a3.png"
             },
             {
                 "name": "Météo",
                 "description": "Application météo avec récupération de la position, affichage de la météo actuelle et prévisionnelle",
-                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.projetdevmobilemto",
+                "image": "https://user-images.githubusercontent.com/72151831/235188415-98352de8-15b7-4d04-b69c-7825e2595030.png"
             },
             {
                 "name": "Todo-List",
                 "description": "Application mobile de gestion de tâches partagées avec plusieurs utilisateurs en temps réel",
-                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist"
+                "url": "https://play.google.com/store/apps/details?id=com.ynov.vernet.to_dolist",
+                "image": "https://user-images.githubusercontent.com/72151831/235188131-d957f7b5-9e73-4601-8fa8-38ef0431dc3c.png"
             }
         ]
     },
