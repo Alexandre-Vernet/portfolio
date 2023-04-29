@@ -81,7 +81,8 @@
 
 @media (max-width: 500px) {
     .projects .section-container > .project-container {
-        padding: .5em;
+        margin: 1em;
+        padding: 0;
 
         .project-box > .project > img {
             width: 150px;
