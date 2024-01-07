@@ -2,5 +2,6 @@ version: '3'
 services:
     portfolio-app:
         image: portfolio:app
+        restart: always
         ports:
             - "80:80"
