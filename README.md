@@ -15,7 +15,6 @@ Responsive design for optimal viewing on different devices.
 - PWA
 - Nginx
 - Docker
-- Render (for hosting)
 
 ## Installation and Setup
 
