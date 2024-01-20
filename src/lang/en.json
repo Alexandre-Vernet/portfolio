@@ -64,13 +64,13 @@
             {
                 "name": "File-Sync",
                 "description": "Share files (images, videos, text, markdown ...) in real time from one device to another",
-                "url": "https://file-sync.onrender.com",
+                "url": "https://file-sync.alexandre-vernet.fr/",
                 "image": "https://user-images.githubusercontent.com/72151831/235187116-7f8194d5-fd4a-4876-8ccf-9f64c6cf04f0.png"
             },
             {
                 "name": "Super-Store",
                 "description": "E-Commerce with cart management, products, orders and payment (Stripe)",
-                "url": "https://superstore-hxlq.onrender.com",
+                "url": "https://superstore.alexandre-vernet.fr/",
                 "image": "https://user-images.githubusercontent.com/72151831/235196115-4bb52aed-fe25-4ac3-b613-371fb38e1b10.png"
             },
             {
