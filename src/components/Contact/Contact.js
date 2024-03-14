@@ -7,9 +7,9 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
     const { t } = useTranslation('common');
     const [formData, setFormData] = useState({
-        name: 'Tobby Bobby Bob Brun',
-        email: 'test@gmail.com',
-        message: 'test zebi',
+        name: '',
+        email: '',
+        message: '',
     });
 
     const handleInputChange = (event) => {
