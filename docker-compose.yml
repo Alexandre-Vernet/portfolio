@@ -1,7 +1,8 @@
 version: '3'
 services:
     portfolio-app:
-        image: portfolio:app
+        image: alexv31/portfolio:app
         restart: always
         ports:
-            - "80:80"
+            - "3000:80"
+            - "3001:443"
