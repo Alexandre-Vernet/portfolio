@@ -45,14 +45,16 @@
             ],
             "back_end": [
                 "NodeJS",
+                "Java",
                 "Express",
                 "NestJS",
                 "Laravel"
             ],
             "database": [
-                "MongoDB",
                 "MySQL",
                 "PostgreSQL",
+                "MongoDB",
+                "Oracle",
                 "Firebase"
             ]
         }
