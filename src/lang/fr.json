@@ -30,7 +30,7 @@
                 "name": "un développeur"
             }
         ],
-        "description": "J'ai 23 ans, j'habite à Toulouse et je travaille en tant qu'ingénieur logiciel chez Capgemini.",
+        "description": "J'ai 24 ans, j'habite à Toulouse et je travaille en tant que consultant ingénieur développement chez Astek.",
         "download_cv": "Télécharger mon CV"
     },
     "skills": {
@@ -45,14 +45,16 @@
             ],
             "back_end": [
                 "NodeJS",
+                "Java",
                 "Express",
                 "NestJS",
                 "Laravel"
             ],
             "database": [
-                "MongoDB",
                 "MySQL",
                 "PostgreSQL",
+                "MongoDB",
+                "Oracle",
                 "Firebase"
             ]
         }

@@ -30,7 +30,7 @@
                 "name": "a developer"
             }
         ],
-        "description": "I'm 23 years old, I live in Toulouse and I work as a software engineer at Capgemini.",
+        "description": "I'm 24 years old, I live in Toulouse and I work as a consultant development engineer at Astek.",
         "download_cv": "Download my CV"
     },
     "skills": {
@@ -45,14 +45,16 @@
             ],
             "back_end": [
                 "NodeJS",
+                "Java",
                 "Express",
                 "NestJS",
                 "Laravel"
             ],
             "database": [
-                "MongoDB",
                 "MySQL",
                 "PostgreSQL",
+                "MongoDB",
+                "Oracle",
                 "Firebase"
             ]
         }

@@ -3,6 +3,10 @@ services:
     portfolio-app:
         image: alexv31/portfolio:app
         restart: always
+        environment:
+            - REACT_APP_EMAILJS_SERVICE_ID=
+            - REACT_APP_EMAILJS_TEMPLATE_ID=
+            - REACT_APP_EMAILJS_PUBLIC_KEY=
         ports:
             - "3000:80"
             - "3001:443"
