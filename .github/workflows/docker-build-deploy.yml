@@ -6,9 +6,9 @@ name: Docker Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "ci" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "ci" ]
 
 env:
   APP_NAME: portfolio
